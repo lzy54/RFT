@@ -1,0 +1,5 @@
+task_id,domain,subtask_categories,task_inst,dataset_preview,eval_script_name
+debug_demo_task,debug,demo,Write a Python program that writes 'hello.txt' with content 'hello'.,"example
+1
+2
+3",eval_debug_demo_task.py

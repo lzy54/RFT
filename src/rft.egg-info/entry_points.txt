@@ -1,0 +1,6 @@
+[console_scripts]
+rft-build = rft.cli.run_build:main
+rft-eval = rft.cli.run_eval:main
+rft-generate = rft.cli.run_generate:main
+rft-train = rft.cli.run_train:main
+rft-verify = rft.cli.run_verify:main
