@@ -189,6 +189,7 @@ class TaskRegistry:
             instruction=instruction,
             dataset_preview=dataset_preview,
             eval_entrypoint=eval_entrypoint,
+            benchmark_root=self.benchmark_root,
             eval_timeout_sec=self.default_eval_timeout_sec,
             metadata=metadata,
         )

@@ -22,6 +22,7 @@ def _now_run_id() -> str:
 
 
 @app.command()
+@app.command()
 def main(
     annotation_path: Path = typer.Option(..., help="Path to task annotation CSV/JSON/JSONL."),
     task_id: str = typer.Option(..., help="Task id to run."),
@@ -34,7 +35,9 @@ def main(
     top_p: float = typer.Option(0.95, help="Sampling top_p."),
     max_tokens: int = typer.Option(2048, help="Max tokens for generation."),
     seed: Optional[int] = typer.Option(None, help="Optional deterministic seed."),
+    mock_llm: bool = typer.Option(False, help="Use mock LLM instead of vLLM"),
 ) -> None:
+
     """
     Minimal generation runner:
       - load TaskSpec
@@ -51,37 +54,22 @@ def main(
     # 2) Render prompt messages
     messages = render(task)
 
-    # 3) vLLM client
-    vcfg = VLLMConfig.from_env()
-    mname = model or (model if model else None) or (model or None) or (model or None)
-    # prefer explicit CLI model; otherwise env VLLM_MODEL; otherwise error
-    if mname is None:
-        mname = model or None
-    if mname is None:
-        mname = (model or None) or (None)
-    if mname is None:
-        mname = (model or None)
-    if mname is None:
-        mname = (model or None)
-    if mname is None:
-        mname = (model or None)
-
-    # Resolve model name sanely
-    if mname is None:
-        mname = (model or "").strip() or (  # noqa: PLW0127
-            (Path().resolve() and "")  # dummy to keep mypy quiet
-        )
-    # The above block is intentionally defensive for early-stage configs;
-    # we now do the actual resolution:
-    mname = (model or "").strip() or (  # CLI
-        (  # ENV
+    
+    # 3) LLM client (mock or vLLM)
+    if mock_llm:
+        from rft.inference.mock_client import MockLLMClient
+        client = MockLLMClient()
+        mname = "mock-llm"
+    else:
+        vcfg = VLLMConfig.from_env()
+        mname = (model or "").strip() or (
             __import__("os").getenv("VLLM_MODEL", "").strip()
         )
-    )
-    if not mname:
-        raise typer.BadParameter("Model name not provided. Set --model or export VLLM_MODEL.")
+        if not mname:
+            raise typer.BadParameter("Model name not provided. Set --model or export VLLM_MODEL.")
 
-    client = VLLMClient(vcfg)
+        client = VLLMClient(vcfg)
+
 
     try:
         # 4) Sample raw candidates

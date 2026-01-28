@@ -53,6 +53,16 @@ class VLLMClient:
             timeout=httpx.Timeout(config.timeout_sec),
             headers={"Authorization": f"Bearer {config.api_key}"},
         )
+        
+    def generate(self, messages, cfg):
+        return self._chat_completions(
+            model=cfg.model,
+            messages=messages,
+            temperature=cfg.temperature,
+            top_p=cfg.top_p,
+            max_tokens=cfg.max_tokens,
+            seed=cfg.seed,
+        )
 
     def close(self) -> None:
         try:

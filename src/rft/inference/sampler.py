@@ -41,14 +41,11 @@ def sample_trajectories(
 
     with out_jsonl.open("a", encoding="utf-8") as f:
         for i in range(cfg.n):
-            raw = client.chat_completion(
-                model=cfg.model,
+            raw = client.generate(
                 messages=messages,
-                temperature=cfg.temperature,
-                top_p=cfg.top_p,
-                max_tokens=cfg.max_tokens,
-                seed=cfg.seed,
+                cfg=cfg,
             )
+
 
             rec: Dict[str, Any] = {
                 "run_id": run_id,

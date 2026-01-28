@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
+from pathlib import Path
 
 
 @dataclass(frozen=True)
@@ -42,6 +43,9 @@ class TaskSpec:
     # Executable verifier entrypoint, e.g.:
     #   "python -m benchmark.eval_programs.eval_tox21_scaffold"
     eval_entrypoint: str = ""
+    
+    benchmark_root: Optional[Path] = None
+
 
     # Wall-clock timeout for verifier execution
     eval_timeout_sec: int = 1800
@@ -110,6 +114,12 @@ class TaskSpec:
                 raise TypeError(
                     "TaskSpec.subtask_categories must be a list of strings"
                 )
+        if self.benchmark_root is not None:
+            if not self.benchmark_root.exists():
+                raise ValueError(
+                    f"benchmark_root does not exist: {self.benchmark_root}"
+                )
+
 
     # ============================================================
     # Helpers
