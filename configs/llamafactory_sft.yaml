@@ -1,59 +1,57 @@
-# =========================
-# LLaMA Factory SFT config
-# (STRICTLY aligned with your LLAF)
-# =========================
+# configs/llamafactory_sft.yaml
 
-### -------- Model --------
-model_name_or_path: Qwen/Qwen2.5-7B-Instruct
+### =========================
+### Model
+### =========================
+model_name_or_path: Qwen/Qwen3-7B
 trust_remote_code: true
 
-### -------- Stage --------
+### =========================
+### Stage / Training
+### =========================
 stage: sft
 do_train: true
-do_eval: false
+finetuning_type: full
+gradient_checkpointing: true
 
-### -------- Dataset --------
-dataset: sft_train
-dataset_dir: runs/latest
+### =========================
+### Dataset
+### =========================
+# 你 run_build 产出：data/rft_sft.jsonl
+dataset: rft_sft
+dataset_dir: ./data
+template: sharegpt
 
-### -------- Length / Packing --------
-cutoff_len: 4096
-packing: false
+# 不裁剪 thinking：给足长度（根据你机器/显存可改 4096/8192/16384）
+cutoff_len: 8192
+max_samples: null
 
-### -------- Output --------
-output_dir: outputs/qwen3-rft-sft
+### =========================
+### Output & Logging
+### =========================
+output_dir: outputs/qwen3_rft_sft
 overwrite_output_dir: true
+logging_steps: 10
+save_steps: 200
+save_total_limit: 2
+report_to: none
 
-### -------- Training --------
+### =========================
+### Optimization
+### =========================
 per_device_train_batch_size: 1
 gradient_accumulation_steps: 8
-learning_rate: 1.0e-5
-num_train_epochs: 1.0
-
+learning_rate: 2e-5
+num_train_epochs: 1
 lr_scheduler_type: cosine
 warmup_ratio: 0.03
 
-bf16: true
-fp16: false
+### =========================
+### Precision
+### =========================
+fp16: true
 
-logging_steps: 10
-save_steps: 500
-save_total_limit: 2
-
-### -------- Optim --------
-optim: adamw_torch
-weight_decay: 0.0
-max_grad_norm: 1.0
-
-### -------- LoRA --------
-finetuning_type: lora
-lora_rank: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target: all
-
-### -------- Dataloader --------
-dataloader_num_workers: 2
-
-### -------- Reproducibility --------
-seed: 42
+### =========================
+### Eval (optional)
+### =========================
+do_eval: false
