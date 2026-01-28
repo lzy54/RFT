@@ -1,0 +1,5 @@
+angles:  90.000000  90.000000  90.000000
+  6  Bi    0.75      0.25      0
+mp-20483,Pb,225,"Full Formula (Pb4)
+pbc   :       True       True       True
+pbc   :       True       True       True

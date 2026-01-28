@@ -1,0 +1,12 @@
+{
+  "dataset": "visium_hne_filtered.h5ad",
+  "removed_obs_names": [
+    "TTGAATTCACGTGAGG-1",
+    "TTGCTGCACCTATCCA-1",
+    "CCTTTCAATGAAGAAA-1",
+    "TTGACGATTCAGCACG-1",
+    "AGTATAATACTAGGCA-1"
+  ],
+  "seed": 1234,
+  "note": "Removed 5 spatial spots for contamination check in evaluation."
+}

@@ -1,0 +1,11 @@
+{
+  "shape": [
+    114600,
+    114600
+  ],
+  "nnz": 855428,
+  "avg_degree": 7.464467713787085,
+  "first100_hash": "2f2500307bfc898cacf00364ec32e31e8860089f",
+  "bbknn_ok": false,
+  "bbknn_error": "Not all batches have at least `neighbors_within_batch` cells in them."
+}

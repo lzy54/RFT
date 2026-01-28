@@ -1,0 +1,17 @@
+{
+  "task": "boehm_hierarchical_opt",
+  "petab_yaml": "/Users/lizhuoyang/Desktop/\u624b\u6413task/benchmark/datasets/Boehm_JProteomeRes2014/_patched_no_visualization.yaml",
+  "hierarchical_used": false,
+  "sensitivity_method": "adjoint",
+  "n_starts": 1,
+  "optimizer": "scipy:L-BFGS-B",
+  "fval": 124.31464442522405,
+  "wall_time_sec": 3.2055890560150146,
+  "removed_measurements_n": 5,
+  "outputs": {
+    "optimization_summary": "pred_results/optimization_summary.json",
+    "best_parameters": "pred_results/best_parameters.csv",
+    "prediction_head": "pred_results/prediction_head.csv",
+    "removed_measurements": "pred_results/removed_measurements.txt"
+  }
+}

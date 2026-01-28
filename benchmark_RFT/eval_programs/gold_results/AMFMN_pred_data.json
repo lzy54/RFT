@@ -1,0 +1,35 @@
+{
+  "train_batch_size": 32,
+  "val_batch_size": 16,
+  "test_batch_size": 16,
+  "train_image_shape": [
+    32,
+    3,
+    256,
+    256
+  ],
+  "val_image_shape": [
+    16,
+    3,
+    256,
+    256
+  ],
+  "test_image_shape": [
+    16,
+    3,
+    256,
+    256
+  ],
+  "train_caption_shape": [
+    32,
+    20
+  ],
+  "val_caption_shape": [
+    16,
+    18
+  ],
+  "test_caption_shape": [
+    16,
+    20
+  ]
+}

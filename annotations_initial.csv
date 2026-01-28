@@ -1,109 +1,64 @@
-task_id,task_inst,dataset_preview,eval_script_name
-cox_ph,"Train a Cox proportional hazards (Cox-PH / DeepSurv) survival model on the
-METABRIC breast cancer dataset using the provided training and validation splits.
+task_id,split,task_inst,dataset_preview,eval_script_name,eval_entrypoint
+pesto_conversion_roadrunner,train,"Construct a parameter estimation workflow for a biochemical reaction model defined in PEtab format using pyPESTO with RoadRunner as the ODE simulator. Run a multi-start optimization to estimate unknown kinetic parameters from experimental measurements. Save: (1) estimated_parameters.tsv with columns parameterId and estimate; (2) objective_summary.json containing at least the best objective value and run settings; (3) sim_vs_data_head.csv comparing simulation and measurement values (first ~50 rows); and (4) fit_plot.png illustrating model fit.","[START Preview of conditions.tsv]
+conditionId
+c0
+[END Preview of conditions.tsv]
 
-Data structure:
-- cox_ph/cox_ph_metabric_train.csv
-- cox_ph/cox_ph_metabric_val.csv
-- cox_ph/cox_ph_metabric_test.csv
+[START Preview of conversion_reaction.yaml]
+format_version: 1
+parameter_file: parameters.tsv
+problems:
+…
+[END Preview of conversion_reaction.yaml]
 
-Each CSV contains covariates x0–x8, a duration column, and an event indicator.
+[START Preview of measurements.tsv]
+observableId	simulationConditionId	time	measurement
+obs_a	c0	0.0	1.0321025178287548
+obs_a	c0	0.3333333333333333	0.8009487310753414
+obs_a	c0	0.6666666666666666	0.6522988284518845
+…
+[END Preview of measurements.tsv]
 
-Task requirements:
-1. Train a Cox proportional hazards model using the training data.
-2. Use the validation split for model selection or early stopping.
-3. Generate risk predictions for the test split.
-4. Save predictions to:
-   - ./pred_results/cox_ph_predictions.csv
+[START Preview of model_conversion_reaction.xml]
+<?xml version=""1.0"" encoding=""UTF-8""?>
+<sbml xmlns=""http://www.sbml.org/sbml/level2/version4"" level=""2"" version=""4"">
+  <model id=""conversion_reaction_0"" name=""Conversion Reaction 0"">
+…
+[END Preview of model_conversion_reaction.xml]
 
-The output CSV must contain the input covariates x0–x8 together with a predicted
-risk score for each test example.
+[START Preview of observables.tsv]
+observableId	observableFormula	noiseFormula
+obs_a	A	0.02
+[END Preview of observables.tsv]
 
-Follow standard practices demonstrated in:
-pycox/examples/cox-ph.ipynb","[START Preview of cox_ph_metabric_val.csv]
-x0,x1,x2,x3,x4,x5,x6,x7,x8,duration,event
-6.4567842,5.8445897,9.190244,6.0127416,1.0,1.0,0.0,1.0,83.92,41.166668,1
-6.484167,5.25158,9.422977,7.278098,0.0,1.0,1.0,0.0,43.08,98.566666,0
-6.544779,5.2411666,10.503643,6.070896,0.0,1.0,0.0,0.0,60.31,124.13333,1
-...
-[END Preview of cox_ph_metabric_val.csv]
+[START Preview of parameters.tsv]
+parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate
+k1	log	1e-05	100000.0	0.8	1
+k2	log	1e-05	100000.0	0.6	1
+[END Preview of parameters.tsv]",pesto_conversion_roadrunner.py,eval_pesto_conversion_roadrunner
+pypesto_result_storage,train,"Run a parameter estimation pipeline for the PEtab conversion reaction model and save outputs under ./pred_results/: pypesto_best_parameters.csv, pypesto_summary.csv, pypesto_predictions.csv, and pypesto_results.png.","[START Preview of PESTO_conver/measurements.tsv]
+observableId	simulationConditionId	time	measurement
+obs_a	c0	0.0	1.0321025178287548
+obs_a	c0	0.3333333333333333	0.8009487310753414
+obs_a	c0	0.6666666666666666	0.6522988284518845
+…
+[END Preview of measurements.tsv]
 
-[START Preview of cox_ph_metabric_test.csv]
-x0,x1,x2,x3,x4,x5,x6,x7,x8,duration,event
-7.3422112,5.3246675,10.045613,5.6113534,1.0,1.0,0.0,0.0,70.6,-1.0,-1
-6.4274993,5.296957,14.464282,6.612708,1.0,1.0,0.0,1.0,61.57,-1.0,-1
-5.7215796,5.457389,9.925193,6.016804,0.0,0.0,0.0,1.0,73.24,-1.0,-1
-...
-[END Preview of cox_ph_metabric_test.csv]",eval_cox_ph.py
-cox_cc,"Train a Cox-CC (continuous-time Cox) survival analysis model on the METABRIC
-breast cancer dataset using the provided training and validation splits.
+[START Preview of PESTO_conver/parameters.tsv]
+parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate
+k1	log	1e-05	100000.0	0.8	1
+k2	log	1e-05	100000.0	0.6	1
+[END Preview of parameters.tsv]",pypesto_result_storage.py,pypesto_result_storage_evaluation
+pypesto_synthetic_data,train,"Perform parameter estimation for a simple inhibition model using a PEtab-formatted synthetic dataset. First generate synthetic measurements using fixed parameters, then run multi-start optimization to recover parameters. Save the estimated parameters to ./pred_results/pyPESTO_synthetic_params.csv with columns param_id and est_value.","[START Preview of measurements.tsv]
+observableId	simulationConditionId	time	measurement
+obs_a	c0	0.0	1.0321025178287548
+obs_a	c0	0.3333333333333333	0.8009487310753414
+obs_a	c0	0.6666666666666666	0.6522988284518845
+…
+[END Preview of measurements.tsv]
 
-Data structure:
-- cox_cc/cox_cc_train.csv
-- cox_cc/cox_cc_val.csv
-- cox_cc/cox_cc_test.csv
-
-Each CSV contains covariates x0–x8, a duration column, and an event indicator.
-
-Task requirements:
-1. Train a Cox-CC model using the training data.
-2. Use the validation split for model tuning or early stopping.
-3. Generate survival probability curves for the test set.
-4. Save outputs to:
-   - ./pred_results/cox_cc_survival.csv in long format with columns
-     [sample_id, time, surv], where surv is the estimated survival probability.
-   - ./pred_results/cox_cc_risk.csv containing selected input covariates together
-     with a predicted risk score for each test sample.
-
-Follow standard practices demonstrated in:
-pycox/examples/cox-cc.ipynb","[START Preview of cox_cc_val.csv]
-x0,x1,x2,x3,x4,x5,x6,x7,x8,duration,event
-6.105876,7.7597294,10.12761,5.3666887,1.0,0.0,0.0,1.0,54.35,265.13333,0
-5.850405,5.7830696,14.357832,5.990287,1.0,1.0,0.0,1.0,57.31,68.2,1
-8.502625,5.2553415,9.453414,6.3189793,0.0,1.0,1.0,0.0,63.22,17.2,1
-...
-[END Preview of cox_cc_val.csv]
-
-[START Preview of cox_cc_test.csv]
-x0,x1,x2,x3,x4,x5,x6,x7,x8,duration,event
-5.5051413,8.638374,10.849506,6.6384554,0.0,0.0,0.0,1.0,80.33,-1.0,-1
-5.5678816,5.4597025,13.8631,6.2312455,0.0,1.0,1.0,0.0,46.76,-1.0,-1
-5.933456,6.3573956,11.20423,5.982156,0.0,0.0,0.0,1.0,50.07,-1.0,-1
-...
-[END Preview of cox_cc_test.csv]",eval_cox_cc.py
-coxtime_metabric,"Train a Cox-Time survival model on the provided METABRIC training data and
-generate survival probability curves for the test set.
-
-Data structure:
-- metabric_coxTime/train.csv
-- metabric_coxTime/val.csv
-- metabric_coxTime/test.csv
-
-Each CSV contains covariates x0–x8, a duration column, and an event indicator.
-
-Task requirements:
-1. Train a Cox-Time model using the training data.
-2. Use the validation split for model tuning or early stopping.
-3. Generate survival probability curves for the test set.
-4. Save outputs to:
-   - ./pred_results/coxtime_metabric/surv.csv
-     (rows correspond to time points, columns correspond to sample_id)
-   - ./pred_results/coxtime_metabric/test_meta.csv
-     containing sample_id and selected input feature columns for verification.
-
-Follow standard practices demonstrated in:
-pycox/examples/cox-time.ipynb","[START Preview of val.csv]
-x0,x1,x2,x3,x4,x5,x6,x7,x8,duration,event
-5.922204,5.582054,11.010562,5.8494415,1.0,1.0,1.0,1.0,66.58,36.433334,1
-5.9072485,5.698533,11.106351,5.835468,0.0,1.0,0.0,1.0,55.42,121.73333,0
-5.823227,5.5009317,11.396918,5.9105854,1.0,1.0,1.0,1.0,50.45,81.333336,1
-...
-[END Preview of val.csv]
-
-[START Preview of test.csv]
-x0,x1,x2,x3,x4,x5,x6,x7,x8,duration,event
-6.1842704,5.405256,12.49854,5.421443,0.0,1.0,0.0,1.0,65.48,-1,-1
-6.2734804,5.636184,14.3060055,5.762812,0.0,0.0,0.0,1.0,74.56,-1,-1
-6.049874,6.7399416,10.645259,5.3085814,1.0,0.0,0.0,1.0,58.99,-1,-1
-...
-[END Preview of test.csv]",eval_coxtime_metabric.py
+[START Preview of parameters.tsv]
+parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate
+k1	log	1e-05	100000.0	0.8	1
+k2	log	1e-05	100000.0	0.6	1
+[END Preview of parameters.tsv]",synthetic_data_parameter_estimation.py,synthetic_data_parameter_estimation_evaluation

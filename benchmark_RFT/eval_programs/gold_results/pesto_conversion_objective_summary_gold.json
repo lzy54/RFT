@@ -1,0 +1,15 @@
+{
+  "seed": 1912,
+  "n_starts": 5,
+  "optimizer": "ScipyOptimizer",
+  "best_fval": -25.35618170662452,
+  "best_start_index": 0,
+  "rr_solver_options": {
+    "relative_tolerance": 1e-06,
+    "absolute_tolerance": 1e-12,
+    "maximum_num_steps": 10000
+  },
+  "success_flags": {
+    "any_success": true
+  }
+}

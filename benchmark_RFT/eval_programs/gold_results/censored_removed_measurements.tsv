@@ -1,0 +1,6 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters	observableTransformation	noiseDistribution	measurementType	censoringBounds
+Activity		Inhibitor_25	0.0	5		1	lin	normal	right-censored	20.0
+Ybar		Inhibitor_300	0.98813045	5		1	lin	normal		
+Ybar		Inhibitor_0	0.0	5		1	lin	normal		
+Ybar		Inhibitor_50	0.81495435	5		1	lin	normal		
+Activity		Inhibitor_100	0.0	5		1	lin	normal	left-censored	3.0

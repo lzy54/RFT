@@ -1,0 +1,34 @@
+input_pdb = "6WEN-A.pdb"
+output_pdb = "6WEN-A.cavities.pdb"
+
+[summary]
+n_cavities = 1
+n_cavity_points = 302096
+volume_total = 470.66
+area_total = 387.82
+max_depth_mean = 5.264978632435273
+avg_depth_mean = 2.2631780704992046
+avg_hydropathy_mean = -0.8149042145593869
+
+[residues]
+KAA = [ [ "22", "A", "ASP",], [ "23", "A", "ILE",], [ "24", "A", "VAL",], [ "38", "A", "ALA",], [ "40", "A", "ASN",], [ "45", "A", "HIS",], [ "49", "A", "VAL",], [ "50", "A", "ALA",], [ "52", "A", "ALA",], [ "99", "A", "ASN",], [ "125", "A", "PRO",], [ "126", "A", "LEU",], [ "127", "A", "LEU",], [ "128", "A", "SER",], [ "129", "A", "ALA",], [ "131", "A", "ILE",], [ "132", "A", "PHE",], [ "136", "A", "PRO",], [ "154", "A", "ALA",], [ "155", "A", "VAL",], [ "156", "A", "PHE",], [ "157", "A", "ASP",], [ "160", "A", "LEU",],]
+
+[frequencies.KAA.RESIDUES]
+ALA = 5
+ASN = 2
+ASP = 2
+HIS = 1
+ILE = 2
+LEU = 3
+PHE = 2
+PRO = 2
+SER = 1
+VAL = 3
+
+[frequencies.KAA.CLASS]
+R1 = 15
+R2 = 2
+R3 = 3
+R4 = 2
+R5 = 1
+RX = 0

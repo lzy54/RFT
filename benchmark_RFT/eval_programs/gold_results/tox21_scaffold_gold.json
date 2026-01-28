@@ -1,0 +1,2484 @@
+{
+  "splitter": "scaffold",
+  "tasks": [
+    "NR-AR",
+    "NR-AR-LBD",
+    "NR-AhR",
+    "NR-Aromatase",
+    "NR-ER",
+    "NR-ER-LBD",
+    "NR-PPAR-gamma",
+    "SR-ARE",
+    "SR-ATAD5",
+    "SR-HSE",
+    "SR-MMP",
+    "SR-p53"
+  ],
+  "labels": [
+    {
+      "smiles": "O=C(O)c1ccc(-n2nc(-c3ccccc3O)nc2-c2ccccc2O)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(C)(C)NC[C@H](O)COc1cccc2c1CCCC2=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC1(C)NC(=O)NC1=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COc1ccc(S(=O)(=O)N2C(=O)[C@@](c3ccccc3OC)(N3C[C@H](O)C[C@H]3C(=O)N(C)C)c3cc(Cl)ccc32)c(OC)c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Nc1ccccc1C(=O)Oc1ccc2ccccc2c1",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 1,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CBr.CCN(CC)CCOC(=O)C(O)(c1ccccc1)c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCC[N+]1(C)CCCCC1.O=S(=O)([O-])C(F)(F)F",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COc1ccccc1/C=C/C=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CNCCCCOc1ccccc1Cc1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "S=C=S",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "NC(Cc1c[nH]c2ccccc12)C(=O)O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCN(CCCC)CCCC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Nc1c(Cl)cc([N+](=O)[O-])cc1Cl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=CCSSCC=C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "CC(C)(Oc1ccc(Cl)cc1)C(=O)OCCCOC(=O)C(C)(C)Oc1ccc(Cl)cc1",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 0,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "O=C(O)Cc1nn(Cc2ccc(Br)cc2F)c(=O)c2ccccc12",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=c1[nH]c(=O)c2c[nH]nc2[nH]1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCP(CCCC)CCCC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=CC(=O)OCCOc1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 1,
+        "SR-MMP": null,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "CC(=O)O[C@H]1CC[C@@]2(C)C(=CC[C@H]3[C@@H]4CC=C(c5cccnc5)[C@@]4(C)CC[C@@H]32)C1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCN(CC)C(=O)N[C@@H]1C=C2c3cccc4[nH]cc(c34)C[C@@H]2N(C)C1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 1,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(=O)NCc1c(I)c(NC(C)=O)c(I)c(C(=O)O)c1I",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(=O)C(C)=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Oc1ccc2ccccc2c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCCCCCCCCCN1CCCCCC1=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "S=C1NC=NC2N=CNC12",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "CC(CC(C#N)(c1ccccc1)C(C)C)N(C)C",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 0,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CCCCCCCCP(=O)(O)O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CN(C)CCCCl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C(O)c1ccc(NC2OC[C@@H](O)[C@H](O)[C@H]2O)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCC1COC(Cn2cncn2)(c2ccc(Cl)cc2Cl)O1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 1,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCCCCCCCCCCCCCCl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=C[Si](OCCOC)(OCCOC)OCCOC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC1(S(=O)(=O)[O-])CC(=O)c2ccccc2C1=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "C[Si](Cn1cncn1)(c1ccc(F)cc1)c1ccc(F)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 1,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COC(=O)C(C)=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C1c2ccccc2C(=O)N1CCl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC1COc2ccccc2N1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(C)NCC(O)c1ccc(N)c(C#N)c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C([O-])c1[nH]n(-c2ccc(S(=O)(=O)[O-])cc2)c(=O)c1/N=N/c1ccc(S(=O)(=O)[O-])cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc21",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "C=CCOCC1CO1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COP(C)(=O)OC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "NN",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCCCCCCCl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1cc2c(C(C)C)c(O)c(O)c(C=O)c2c(O)c1-c1c(C)cc2c(C(C)C)c(O)c(O)c(C=O)c2c1O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 1,
+        "SR-HSE": null,
+        "SR-MMP": 1,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CC(C)[N+]1(C)C2CCC1CC(OC(=O)C(CO)c1ccccc1)C2",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC[C@@H](C(=O)[C@@H](C)[C@@H](O)[C@H](C)CCc1ccc(C)c(O)c1C(=O)[O-])[C@H]1O[C@](CC)([C@H]2CC[C@](O)(CC)[C@H](C)O2)C[C@@H]1C",
+      "labels": {
+        "NR-AR": 1,
+        "NR-AR-LBD": null,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": null,
+        "SR-MMP": 1,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "CC(=O)NCCCCCC(=O)O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COC(=O)CSc1cc(/N=c2\\sc(=O)n3n2CCCC3)c(F)cc1Cl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC1=C(C)S(=O)(=O)CCS1(=O)=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 1,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 1,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=CC(=O)OCC(C)OCC(C)OCC(C)OC(=O)C=C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 1,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 1,
+        "SR-ARE": null,
+        "SR-ATAD5": 1,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "O=C(Nc1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "O=C([O-])CNc1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(C)(O)c1ccc(CNC(=O)c2cccnc2Oc2ccc3nonc3c2)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Nc1ccc(S(=O)(=O)[N-]c2ncccn2)cc1.[Ag+]",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCN(CCC)CCc1cccc2c1CC(=O)N2",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "N[C@@H](CS)C(=O)O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCN1C(=CC=CC=Cc2sc3ccccc3[n+]2CC)Sc2ccccc21",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": null,
+        "SR-MMP": 1,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
+      "labels": {
+        "NR-AR": 1,
+        "NR-AR-LBD": 1,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCOP(=S)(OCC)Oc1ccc(S(C)=O)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCOCCOC(=O)c1ccccc1C(=O)OCCOCCCC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 1,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C(c1ccccc1)c1ccccc1O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 1,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COc1cc(-c2ccc(=O)[nH]n2)ccc1OC(F)F",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 1,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COC(=O)[C@H]1[C@@H](OC(=O)c2ccccc2)C[C@@H]2CC[C@H]1N2C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCN(CC)c1nc(C)cc(OP(=S)(OC)OC)n1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 1,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Nc1nc(-c2ccccc2)cs1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(=O)O[C@]1(C(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
+      "labels": {
+        "NR-AR": 1,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": 1,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Oc1ccc2[nH]cc(CCCCN3CC=C(c4ccccc4)CC3)c2c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Nc1ccccc1S(=O)(=O)c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(=O)N=c1sc(S(N)(=O)=O)nn1C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCC1(COC(=O)CCC(=O)O)C(=O)N(c2ccccc2)N(c2ccccc2)C1=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 1,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1ccc2c(n1)Oc1ccc(C(C)C(=O)OCC(=O)N(C)C)cc1C2",
+      "labels": {
+        "NR-AR": 1,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 1,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCC[N+](CCCC)(CCCC)CCCC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=C(C)C(=O)OCCOCC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(=O)N(CC(C)C(=O)O)c1c(I)cc(I)c(N)c1I",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCCCCCCCCCCCCC/C=C/C1CC(=O)OC1=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(O)C(=O)O[Hg]c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 1,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 1,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": 1,
+        "SR-MMP": null,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "Clc1ccccc1CN1CCc2sccc2C1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCN1CN(CC)CN(CC)C1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C[N+](C)(C)CCCCCCCCCC[N+](C)(C)C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CNC(=O)C(c1ccccc1)c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C(Oc1cccc2cccnc12)c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 1,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC[C@H](C)[C@H]1O[C@]2(CC[C@@H]1C)C[C@@H]1C[C@@H](CC=C(C)[C@@H](O[C@H]3C[C@H](OC)[C@@H](O[C@H]4C[C@H](OC)[C@@H](O)[C@H](C)O4)[C@H](C)O3)[C@@H](C)C=CC=C3CO[C@@H]4[C@H](O)C(C)=C[C@@H](C(=O)O1)[C@]34O)O2",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C[C@@H](N)C(=O)c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C(O)Cc1ccc2c(c1)C(=O)c1ccccc1CO2",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "c1nc[nH]n1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CN(CCO)CCO",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "N=C1NC(=N)c2cc3ccccc3cc21",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 1,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 1,
+        "SR-ATAD5": 1,
+        "SR-HSE": 1,
+        "SR-MMP": 1,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "CCCCOC(=O)CC(CC(=O)OCCCC)(OC(C)=O)C(=O)OCCCC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=[N+]([O-])c1ccccc1CCO",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CN(C)CCOCCN(C)C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC12CCCC=C1C(=O)OC2=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C1NC(=O)c2cc([N+](=O)[O-])ccc21",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "NCCCN(CCO)CCO",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C1CN2CCOC2(c2ccccc2Cl)c2cc(Cl)ccc2N1",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 0,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CCC(=O)/C=C/C1C(C)=CCCC1(C)C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCOc1ccc(NC(=S)Nc2ccc(OCC)cc2)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCCCCCc1ccc(-c2ccc(C#N)cc2)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 1,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1cc(O)c(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CS[C@H]23)c2ccc(O)cc2)cn1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1ccccc1/N=N/c1ccc(/N=N/c2c(O)ccc3ccccc23)c(C)c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1ccc(N)c(N)c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 1,
+        "SR-HSE": 1,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(S)C(=O)NCC(=O)O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCOP(=S)(OCC)Oc1cnc2ccccc2n1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 1,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(C)=CCN1CC[C@]2(C)c3cc(O)ccc3C[C@H]1[C@H]2C.O=C(O)CCC(=O)O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1cc(N)n(-c2ccccc2)n1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C(O)Cc1ccc(-c2ccccc2)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 1,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "c1ccncc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CN1C(=O)OC(C)(C)C1=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Clc1sc(Cl)c(Cl)c1Cl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCC(=O)[N-]S(=O)(=O)c1ccc(-c2c(-c3ccccc3)noc2C)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CN(C)CCC(O)(c1ccccc1)c1ccccc1Cl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": null,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C[Si](C)(C)O[Si](O)(O)O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCOP(=S)(OCC)Oc1ncn(-c2ccccc2)n1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=C(C)CS(=O)(=O)[O-]",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COc1ccc2c(C(=S)N(C)CC(=O)O)cccc2c1C(F)(F)F",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C(Nc1cccc(Cl)c1)OCC#CCCl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 1,
+        "SR-ATAD5": null,
+        "SR-HSE": 1,
+        "SR-MMP": 1,
+        "SR-p53": 1
+      }
+    },
+    {
+      "smiles": "CC=C1CC2C=CC1C2",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CNC1(c2ccccc2Cl)CCCCC1=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=CC(C)(O)CCCC(C)CCCC(C)CCCC(C)C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=S1(=O)CC=CC1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=C(C)C(=O)OCCCCCCCCCC",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COc1cc2c(cc1OC)-c1c/c(=N\\c3c(C)cc(C)cc3C)n(C)c(=O)n1CC2",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": null,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CCOc1cc(CC(=O)N[C@@H](CC(C)C)c2ccccc2N2CCCCC2)ccc1C(=O)O",
+      "labels": {
+        "NR-AR": 1,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Nc1ccc(Cl)cc1C(=O)c1ccccc1F",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 1,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CCCC(=O)OCCC(C)C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=C(C#N)CCC#N",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CCC(=O)N(c1ccccc1)C1CCNCC1",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 0,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "CC(=O)OCCC(C)CC(C)(C)C",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=S1(=O)OC(c2cc(Br)c(O)c(Br)c2)(c2cc(Br)c(O)c(Br)c2)c2ccccc21",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 0,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "C=CCN1CC[C@]23CCCC[C@H]2[C@H]1Cc1ccc(O)cc13",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "O=C(O)c1ccc(O)c(O)c1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "NS(=O)(=O)c1ccc(C(=O)O)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(C)COC(=O)c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": null,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CN(C)c1ccncc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "Cc1nc2ccccc2s1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "FC1(F)C(F)(F)C(F)(F)C2(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C2(F)C1(F)F",
+      "labels": {
+        "NR-AR": null,
+        "NR-AR-LBD": null,
+        "NR-AhR": null,
+        "NR-Aromatase": null,
+        "NR-ER": null,
+        "NR-ER-LBD": null,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": 0,
+        "SR-ATAD5": null,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "Clc1nc2ccccc2nc1Cl",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": null,
+        "NR-AhR": 0,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 1,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC(=O)O[AlH3](O)OC(C)=O",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 1,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "CC1CCCC1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 1,
+        "SR-ATAD5": 0,
+        "SR-HSE": null,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    },
+    {
+      "smiles": "Cc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 0,
+        "NR-Aromatase": 0,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": 0,
+        "SR-ARE": 0,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": 0,
+        "SR-p53": 0
+      }
+    },
+    {
+      "smiles": "COP(=S)(Oc1cc(Cl)c(Br)cc1Cl)c1ccccc1",
+      "labels": {
+        "NR-AR": 0,
+        "NR-AR-LBD": 0,
+        "NR-AhR": 1,
+        "NR-Aromatase": null,
+        "NR-ER": 0,
+        "NR-ER-LBD": 0,
+        "NR-PPAR-gamma": null,
+        "SR-ARE": null,
+        "SR-ATAD5": 0,
+        "SR-HSE": 0,
+        "SR-MMP": null,
+        "SR-p53": null
+      }
+    }
+  ]
+}

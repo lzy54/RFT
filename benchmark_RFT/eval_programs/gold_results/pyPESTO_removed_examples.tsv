@@ -1,0 +1,6 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters	observableTransformation	noiseDistribution	measurementType
+Activity		Inhibitor_10	8.31458694362777	5		1	lin	normal	semiquantitative
+Activity		Inhibitor_35	8.07849405536742	5		1	lin	normal	semiquantitative
+Activity		Inhibitor_75	2.69874576106127	5		1	lin	normal	semiquantitative
+Activity		Inhibitor_100	1.673154390125	5		1	lin	normal	semiquantitative
+Ybar		Inhibitor_0	0.0	5		1	lin	normal	semiquantitative

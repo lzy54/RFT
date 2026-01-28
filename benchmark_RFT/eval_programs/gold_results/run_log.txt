@@ -1,0 +1,14 @@
+PEtab/pyPESTO Gold Program Log
+yaml_config_original: benchmark/datasets/Boehm_JProteomeRes2014/Boehm_JProteomeRes2014.yaml
+yaml_config_used: benchmark/datasets/Boehm_JProteomeRes2014/_patched_no_visualization.yaml
+engine: SingleCoreEngine()
+optimizer: ScipyOptimizer(L-BFGS-B, maxiter=200)
+n_starts: 10
+status: OK
+best_fval: 138.2219739967197
+num_free_params_saved: 11
+amici_model_num_params: 9
+amici_model_num_fixed_params: 2
+amici_model_num_observables: 3
+amici_model_num_states: 8
+runtime_seconds: 8.19

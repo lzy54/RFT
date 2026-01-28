@@ -1,0 +1,62 @@
+# =========================
+# OS
+# =========================
+.DS_Store
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Python packaging
+# =========================
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Environments
+# =========================
+.env
+.venv
+venv/
+conda/
+.conda/
+
+# =========================
+# Jupyter
+# =========================
+*.ipynb
+.ipynb_checkpoints/
+
+# =========================
+# RFT runtime artifacts
+# =========================
+runs/
+pred_results/
+logs/
+outputs/
+checkpoints/
+
+# =========================
+# Cache / temp
+# =========================
+.cache/
+*.log
+*.tmp
+
+# =========================
+# RFT debug / mock
+# =========================
+_mock_*
+tmp_*.py
+
+# =========================
+# Benchmark derived outputs
+# =========================
+benchmark_RFT/**/pred_results/
+benchmark_RFT/**/results/

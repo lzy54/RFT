@@ -1,0 +1,8 @@
+{
+  "status": "OK",
+  "best_fval": 138.2219739967197,
+  "n_starts": 10,
+  "optimizer": "ScipyOptimizer(L-BFGS-B)",
+  "engine": "SingleCoreEngine()",
+  "yaml_used": "benchmark/datasets/Boehm_JProteomeRes2014/_patched_no_visualization.yaml"
+}

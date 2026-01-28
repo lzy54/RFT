@@ -1,0 +1,11 @@
+{
+  "shape": [
+    267690,
+    267690
+  ],
+  "nnz": 1700972,
+  "avg_degree": 6.354260525234413,
+  "first100_hash": "5833552ddd37cac651b16ccdde96660e502b2533",
+  "bbknn_ok": false,
+  "bbknn_error": "Batch key 'batch' not present in `adata.obs`."
+}

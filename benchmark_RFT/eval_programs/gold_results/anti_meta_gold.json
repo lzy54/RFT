@@ -1,0 +1,12 @@
+{
+  "removed_count": 5,
+  "removed_ids_head": [
+    "human1_lib1.final_cell_0301-0",
+    "HP1526901T2D_G23-2",
+    "D31.8_44-1",
+    "human3_lib4.final_cell_0630-0",
+    "reads.25954-3"
+  ],
+  "total_after_removal": 14688,
+  "data_path": "./benchmark/datasets/pancreas/pancreas.h5ad"
+}

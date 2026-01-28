@@ -1,0 +1,12 @@
+parameter_id,estimate
+Epo_degradation_BaF3,-1.5690544556506434
+k_exp_hetero,-5.0
+k_exp_homo,-2.2098688057814764
+k_imp_hetero,-1.7859102680666084
+k_imp_homo,5.0
+k_phos,4.197710699565749
+ratio,0.693
+sd_pSTAT5A_rel,0.5856759707526907
+sd_pSTAT5B_rel,0.8188365266200073
+sd_rSTAT5A_rel,0.49857549288082104
+specC17,0.107

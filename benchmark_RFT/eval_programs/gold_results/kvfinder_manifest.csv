@@ -1,0 +1,2 @@
+ref_pdb_id,n_cavity_points,avg_hydropathy,max_depth,results_toml,cavities_pdb
+6WEN-A,302096,-0.8149042145593869,5.264978632435273,pred_results/6WEN-A.results.toml,pred_results/6WEN-A.cavities.pdb
