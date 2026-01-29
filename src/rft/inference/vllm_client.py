@@ -17,7 +17,11 @@ class VLLMConfig:
       POST {base_url}/v1/chat/completions
     """
     base_url: str
+    
+    # API key 
     api_key: str = "EMPTY"
+    
+    
     timeout_sec: float = 120.0
     max_retries: int = 3
     retry_backoff_sec: float = 1.5
